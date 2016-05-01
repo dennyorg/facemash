@@ -1,7 +1,7 @@
 <?php
-	
+//this is a harmless comment 1	
 
-	$dbc=mysqli_connect('localhost','root','','facemash') or die(mysqli_error());
+	
 	$using="use facemash";
 	$query=mysqli_query($dbc, "select *from facemashed") or die ("Here it broke");
 		if($_REQUEST!=NULL){
