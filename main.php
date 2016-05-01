@@ -1,5 +1,6 @@
 <?php
 	
+//comment added again and wanted to screw up
 
 	$dbc=mysqli_connect('localhost','root','','facemash') or die(mysqli_error());
 	$using="use facemash";
