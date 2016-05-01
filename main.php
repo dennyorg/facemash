@@ -1,5 +1,7 @@
 <?php
 	
+//this is a comment by dennytest2
+
 
 	$dbc=mysqli_connect('localhost','root','','facemash') or die(mysqli_error());
 	$using="use facemash";
